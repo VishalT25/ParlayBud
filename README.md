@@ -8,7 +8,7 @@ ParlayBud is a sports betting analytics platform that helps identify profitable 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwindcss)
 
-![Check it out here](https://parlaybud.lovable.app)
+Check it out here: [https://parlaybud.lovable.app](url)
 
 ## Features
 
