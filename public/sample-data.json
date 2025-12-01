@@ -1,0 +1,1155 @@
+{
+  "generated_at": "2025-11-30T07:30:50.675219+00:00",
+  "source_file": "/Users/vtham/Desktop/Projects/11-30-25-nba-props.xlsx",
+  "engine_config": {
+    "trials": 1000000,
+    "batch_size": 50000,
+    "max_legs": 4,
+    "pool_limit": 40,
+    "top_k": 20,
+    "confidence_in_model": 0.35,
+    "rho_same_team": 0.3,
+    "rho_opp_team": 0.1,
+    "rho_same_player": 0.95,
+    "kelly_cap": 0.1,
+    "avoid_same_player": true,
+    "random_seed": 42,
+    "debug": false
+  },
+  "num_parlays": 21,
+  "parlays": [
+    {
+      "label": "top_ev_1",
+      "num_legs": 4,
+      "ev": 1.347277986843665,
+      "hit_probability": 0.253491,
+      "implied_decimal": 9.259807988621548,
+      "implied_american": "+826",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_2",
+      "num_legs": 4,
+      "ev": 1.3001108852928391,
+      "hit_probability": 0.230332,
+      "implied_decimal": 9.986067438709512,
+      "implied_american": "+899",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_3",
+      "num_legs": 4,
+      "ev": 1.2885059855398837,
+      "hit_probability": 0.216251,
+      "implied_decimal": 10.582637701281769,
+      "implied_american": "+958",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 15,
+          "team": "HOU",
+          "player": "Amen Thompson",
+          "game": "HOU @ UTA",
+          "proposition": "Over 6.5 Rebounds",
+          "line": 6.5,
+          "odds": -132,
+          "implied_probability": 0.56,
+          "model_probability": 0.6259750000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_4",
+      "num_legs": 4,
+      "ev": 1.2552864243807043,
+      "hit_probability": 0.221415,
+      "implied_decimal": 10.185788787483704,
+      "implied_american": "+919",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 19,
+          "team": "POR",
+          "player": "Shaedon Sharpe",
+          "game": "OKC @ POR",
+          "proposition": "Over 3.5 Rebounds",
+          "line": 3.5,
+          "odds": -102,
+          "implied_probability": 0.5,
+          "model_probability": 0.605
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_5",
+      "num_legs": 4,
+      "ev": 1.2521464591064082,
+      "hit_probability": 0.229951,
+      "implied_decimal": 9.79402768027279,
+      "implied_american": "+879",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 3,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 27.5 Points + Rebounds",
+          "line": 27.5,
+          "odds": -108,
+          "implied_probability": 0.52,
+          "model_probability": 0.6278000000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_6",
+      "num_legs": 4,
+      "ev": 1.2465122116168974,
+      "hit_probability": 0.193329,
+      "implied_decimal": 11.620151201407433,
+      "implied_american": "+1062",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_7",
+      "num_legs": 4,
+      "ev": 1.2452973611217626,
+      "hit_probability": 0.224843,
+      "implied_decimal": 9.986067438709512,
+      "implied_american": "+899",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 13,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -104,
+          "implied_probability": 0.51,
+          "model_probability": 0.612725
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_8",
+      "num_legs": 4,
+      "ev": 1.2433816183816178,
+      "hit_probability": 0.229952,
+      "implied_decimal": 9.75586913086913,
+      "implied_american": "+876",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 15,
+          "team": "HOU",
+          "player": "Amen Thompson",
+          "game": "HOU @ UTA",
+          "proposition": "Over 6.5 Rebounds",
+          "line": 6.5,
+          "odds": -132,
+          "implied_probability": 0.56,
+          "model_probability": 0.6259750000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_9",
+      "num_legs": 4,
+      "ev": 1.225788348121779,
+      "hit_probability": 0.268106,
+      "implied_decimal": 8.301896817384836,
+      "implied_american": "+730",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 7,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 9.5 Rebounds + Assists",
+          "line": 9.5,
+          "odds": -136,
+          "implied_probability": 0.58,
+          "model_probability": 0.6496500000000001
+        }
+      ]
+    },
+    {
+      "label": "top_ev_10",
+      "num_legs": 4,
+      "ev": 1.2118895074734586,
+      "hit_probability": 0.243213,
+      "implied_decimal": 9.09445427453902,
+      "implied_american": "+809",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 15,
+          "team": "HOU",
+          "player": "Amen Thompson",
+          "game": "HOU @ UTA",
+          "proposition": "Over 6.5 Rebounds",
+          "line": 6.5,
+          "odds": -132,
+          "implied_probability": 0.56,
+          "model_probability": 0.6259750000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_11",
+      "num_legs": 4,
+      "ev": 1.2083175760076097,
+      "hit_probability": 0.1927,
+      "implied_decimal": 11.459873253801815,
+      "implied_american": "+1046",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 40,
+          "team": "POR",
+          "player": "Donovan Clingan",
+          "game": "OKC @ POR",
+          "proposition": "Over 2.5 1Q Points",
+          "line": 2.5,
+          "odds": -138,
+          "implied_probability": 0.58,
+          "model_probability": 0.631975
+        },
+        {
+          "row_index": 19,
+          "team": "POR",
+          "player": "Shaedon Sharpe",
+          "game": "OKC @ POR",
+          "proposition": "Over 3.5 Rebounds",
+          "line": 3.5,
+          "odds": -102,
+          "implied_probability": 0.5,
+          "model_probability": 0.605
+        },
+        {
+          "row_index": 14,
+          "team": "POR",
+          "player": "Toumani Camara",
+          "game": "OKC @ POR",
+          "proposition": "Over 4.5 Rebounds",
+          "line": 4.5,
+          "odds": -162,
+          "implied_probability": 0.59,
+          "model_probability": 0.629725
+        }
+      ]
+    },
+    {
+      "label": "top_ev_12",
+      "num_legs": 4,
+      "ev": 1.205989476210064,
+      "hit_probability": 0.20593,
+      "implied_decimal": 10.712326888797476,
+      "implied_american": "+971",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_13",
+      "num_legs": 4,
+      "ev": 1.2059736873296196,
+      "hit_probability": 0.186118,
+      "implied_decimal": 11.852554225435581,
+      "implied_american": "+1085",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 19,
+          "team": "POR",
+          "player": "Shaedon Sharpe",
+          "game": "OKC @ POR",
+          "proposition": "Over 3.5 Rebounds",
+          "line": 3.5,
+          "odds": -102,
+          "implied_probability": 0.5,
+          "model_probability": 0.605
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_14",
+      "num_legs": 4,
+      "ev": 1.1984208750831953,
+      "hit_probability": 0.1929,
+      "implied_decimal": 11.396686755226519,
+      "implied_american": "+1040",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 3,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 27.5 Points + Rebounds",
+          "line": 27.5,
+          "odds": -108,
+          "implied_probability": 0.52,
+          "model_probability": 0.6278000000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_15",
+      "num_legs": 4,
+      "ev": 1.1969473191003908,
+      "hit_probability": 0.224315,
+      "implied_decimal": 9.79402768027279,
+      "implied_american": "+879",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 53,
+          "team": "MEM",
+          "player": "Jaren Jackson Jr.",
+          "game": "MEM @ SAC",
+          "proposition": "Under 29.5 Pts + Reb + Ast",
+          "line": 29.5,
+          "odds": -108,
+          "implied_probability": 0.52,
+          "model_probability": 0.6131
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_16",
+      "num_legs": 4,
+      "ev": 1.1926179503447698,
+      "hit_probability": 0.188691,
+      "implied_decimal": 11.620151201407433,
+      "implied_american": "+1062",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 13,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -104,
+          "implied_probability": 0.51,
+          "model_probability": 0.612725
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_17",
+      "num_legs": 4,
+      "ev": 1.188461048755166,
+      "hit_probability": 0.178757,
+      "implied_decimal": 12.242659301482828,
+      "implied_american": "+1124",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 15,
+          "team": "HOU",
+          "player": "Amen Thompson",
+          "game": "HOU @ UTA",
+          "proposition": "Over 6.5 Rebounds",
+          "line": 6.5,
+          "odds": -132,
+          "implied_probability": 0.56,
+          "model_probability": 0.6259750000000001
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_18",
+      "num_legs": 4,
+      "ev": 1.183463975888427,
+      "hit_probability": 0.24388,
+      "implied_decimal": 8.953025979532669,
+      "implied_american": "+795",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 7,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 9.5 Rebounds + Assists",
+          "line": 9.5,
+          "odds": -136,
+          "implied_probability": 0.58,
+          "model_probability": 0.6496500000000001
+        }
+      ]
+    },
+    {
+      "label": "top_ev_19",
+      "num_legs": 4,
+      "ev": 1.182184216581026,
+      "hit_probability": 0.170721,
+      "implied_decimal": 12.782166321548175,
+      "implied_american": "+1178",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 1,
+          "team": "ATL",
+          "player": "Onyeka Okongwu",
+          "game": "ATL @ PHI",
+          "proposition": "Under 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -106,
+          "implied_probability": 0.51,
+          "model_probability": 0.629175
+        },
+        {
+          "row_index": 19,
+          "team": "POR",
+          "player": "Shaedon Sharpe",
+          "game": "OKC @ POR",
+          "proposition": "Over 3.5 Rebounds",
+          "line": 3.5,
+          "odds": -102,
+          "implied_probability": 0.5,
+          "model_probability": 0.605
+        },
+        {
+          "row_index": 11,
+          "team": "UTA",
+          "player": "Keyonte George",
+          "game": "HOU @ UTA",
+          "proposition": "Over 30.5 Pts + Reb + Ast",
+          "line": 30.5,
+          "odds": -110,
+          "implied_probability": 0.52,
+          "model_probability": 0.606275
+        }
+      ]
+    },
+    {
+      "label": "top_ev_20",
+      "num_legs": 4,
+      "ev": 1.1793745184899844,
+      "hit_probability": 0.253463,
+      "implied_decimal": 8.598393132291436,
+      "implied_american": "+760",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 2,
+          "team": "UTA",
+          "player": "Lauri Markkanen",
+          "game": "HOU @ UTA",
+          "proposition": "Over 1.5 Assists",
+          "line": 1.5,
+          "odds": -178,
+          "implied_probability": 0.64,
+          "model_probability": 0.7366
+        },
+        {
+          "row_index": 6,
+          "team": "UTA",
+          "player": "Jusuf Nurki\\uc0\\u263",
+          "game": "HOU @ UTA",
+          "proposition": "Over 8.5 Rebounds",
+          "line": 8.5,
+          "odds": -146,
+          "implied_probability": 0.59,
+          "model_probability": 0.6804749999999999
+        },
+        {
+          "row_index": 5,
+          "team": "HOU",
+          "player": "Steven Adams",
+          "game": "HOU @ UTA",
+          "proposition": "Under 6.5 Points",
+          "line": 6.5,
+          "odds": -122,
+          "implied_probability": 0.55,
+          "model_probability": 0.6551750000000001
+        },
+        {
+          "row_index": 15,
+          "team": "HOU",
+          "player": "Amen Thompson",
+          "game": "HOU @ UTA",
+          "proposition": "Over 6.5 Rebounds",
+          "line": 6.5,
+          "odds": -132,
+          "implied_probability": 0.56,
+          "model_probability": 0.6259750000000001
+        }
+      ]
+    },
+    {
+      "label": "ultra_safe_plus100",
+      "num_legs": 2,
+      "ev": 0.2281730965503168,
+      "hit_probability": 0.601682,
+      "implied_decimal": 2.0412329046744238,
+      "implied_american": "+104",
+      "kelly_fraction": 0.1,
+      "legs": [
+        {
+          "row_index": 0,
+          "team": "LAL",
+          "player": "LeBron James",
+          "game": "NOP @ LAL",
+          "proposition": "Over 0.5 Steals",
+          "line": 0.5,
+          "odds": -225,
+          "implied_probability": 0.69,
+          "model_probability": 0.794125
+        },
+        {
+          "row_index": 47,
+          "team": "LAL",
+          "player": "Austin Reaves",
+          "game": "NOP @ LAL",
+          "proposition": "Over 0.5 Steals",
+          "line": 0.5,
+          "odds": -245,
+          "implied_probability": 0.71,
+          "model_probability": 0.728375
+        }
+      ]
+    }
+  ]
+}

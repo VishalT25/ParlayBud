@@ -1,0 +1,4 @@
+project_id = "kaxmsneukuhtdngynfxb"
+
+[functions.process-parlays]
+verify_jwt = false
